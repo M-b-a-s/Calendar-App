@@ -14,11 +14,11 @@ To run the Calendar Application, follow these steps:
 2. Navigate to the project folder.
 3. Compile the application using a C compiler. For example, using gcc:
 ```
-gcc calendar.c -o calendar
+gcc calendar.c -o main
 ```
 4. Execute the compiled program:
 ```
-./calendar
+./main
 ```
 
 ## Usage
