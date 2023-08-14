@@ -27,9 +27,9 @@ int calculateDayOfTheWeek(int day, int month, int year) {
 
     int h = (day + ((13 * (month + 1)) / 5) + K + (K/4) + (J/4) - (2 * J)) % 7; // Zeller's Formula for the gregorian calendar
 
-    if(h < 0){
-        h += 7;
-    }
+    // if(h < 0){
+    //     h += 7;
+    // }
 
     return h;
 
@@ -42,7 +42,7 @@ void displayCalendar(int month, int year){
 
 
     // day names
-    char *days[] = {"S", "M", "T", "W", "T", "F", "S"};
+    char *days[] = {"S", "S", "M", "T", "W", "T", "F"};
 
     // total number of days in each month
     int numDays[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
